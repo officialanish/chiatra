@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box
+}
+a{
+    color:inherit;
+}
+body{
+    background-color: purple ;
+    color: white; 
+}
+h1{
+    color: red;
+    text-decoration: underline;
+}
+ nav ul{ /*descendant selector*/ 
+    list-style-type: none ;
+    text-transform: capitalize;
+    padding-left:200px;
+}
+a{
+    text-decoration: none;
+}
+nav ul  li{
+    display: inline;
+}
+
+nav ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.active-link{
+    color:white;
+}
+.box{
+    padding:10px;
+    height:262px;
+    border: 1px solid seagreen;
+    width:200px;
+    box-sizing:border-box
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border:1px solid;
+    padding: 10px;
+}  
